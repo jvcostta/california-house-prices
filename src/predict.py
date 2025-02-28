@@ -1,5 +1,5 @@
 import joblib
-from ultils import carregar_dados
+from src.utils import carregar_dados
 
 modelo = joblib.load("../models/modelo.pkl")
 
