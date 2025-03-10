@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-
+#carregando base de dados
 def carregar_dados():
     caminho_arquivo = os.path.join(os.path.dirname(__file__), "../data/california.csv")
 
